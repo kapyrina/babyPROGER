@@ -11,4 +11,4 @@ def factorialnum(n):
     return(n * factorialnum(n-1))
 
 number =7
-print("Факториал числа", number, "равно",factorialnum(number))
+print("Факториал числа", number, ":",factorialnum(number))
